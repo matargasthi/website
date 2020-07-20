@@ -289,18 +289,18 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <!--<div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img src="assets/img/verify_email_mobile.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>E&#45;mail Verification</h4>
                 <p>Auth</p>
               </div>
-              <div class="portfolio-links">
+            <div class="portfolio-links">
                 <a href="assets/img/verify_email_mobile.png" data-gall="portfolioGallery" class="venobox" title="View picture"><i class="bx bx-plus"></i></a>
               </div>
             </div>
-          </div>
+          </div>-->
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
@@ -567,6 +567,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
     
 <script>window.onload=function(){
     var typed3 = new Typed('#typed3', {
@@ -599,6 +600,29 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 }
+</script>
+<script>
+  setTimeout(function(){
+    Swal.fire({
+    html: '<b>Our app is now out for beta testing 🥳, Team Matargasthi awaits your review</b>',
+  imageUrl: 'https://media.giphy.com/media/eiFuCZkRcSszt6Xsay/giphy.gif',
+  title:
+    //'You can use <b>bold text</b>, ' +
+    '<a href="https://github.com/prasenjitghose36"><b>Try It Now!</b></a>',
+    //'and other HTML tags',
+  imageWidth: 400,
+  imageHeight: 400,
+  imageAlt: 'Custom image',
+  showConfirmButton: false,
+  showCloseButton: false,
+  showCancelButton: true,
+  focusConfirm: false,
+  //confirmButtonText:
+    //'<a href="https://github.com/prasenjitghose36">Test It!</a>',
+    //confirmButtonAriaLabel: 'Thumbs up, great!',
+  cancelButtonColor: '#d33',
+})
+  },5000);
 </script>
 </body>
 
