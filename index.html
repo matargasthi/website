@@ -602,7 +602,27 @@
 }
 </script>
 <script>
-  setTimeout(function(){
+setTimeout(function(){ Swal.fire({
+  imageUrl: 'https://media.giphy.com/media/eNGqQSWtuUMr8V2XDM/giphy.gif',
+  title: '<a href="https://github.com/prasenjitghose36"><b>  Click to Try  </b></a>',
+  width: 500,
+  padding: '3em',
+  text:'Team Matargasthi anticipates your valuable review',
+  //background: '#fff url("https://media.giphy.com/media/JpXWwAwIjysZrlEm70/giphy.gif")',
+  showConfirmButton: false,
+  showCloseButton: false,
+  showCancelButton: true,
+  focusConfirm: false,
+  cancelButtonColor: '#d33',
+  backdrop: `
+    rgba(0,0,123,0.4)
+    url("https://media.giphy.com/media/RlHXMGhyNVIB7vCpb9/giphy.gif")
+    left top
+    no-repeat
+  `
+})
+}, 5000);
+  /*setTimeout(function(){
     Swal.fire({
     html: '<b>Our app is now out for beta testing 🥳, Team Matargasthi awaits your review</b>',
   imageUrl: 'https://media.giphy.com/media/eiFuCZkRcSszt6Xsay/giphy.gif',
@@ -622,7 +642,7 @@
     //confirmButtonAriaLabel: 'Thumbs up, great!',
   cancelButtonColor: '#d33',
 })
-  },5000);
+  },5000);*/
 </script>
 </body>
 
