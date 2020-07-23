@@ -1,6 +1,36 @@
 /*#Fonts used is Manrope Google*/
+/*  font-family: Abel  */
+@font-face {
+  font-family: Abel;
+  src: url('../../fonts/Abel/Abel-Regular.ttf');
+}
+
+/*  font-family: Anton  */
+@font-face {
+  font-family: Anton;
+  src: url('../../fonts/Anton/Anton-Regular.ttf');
+}
+
+/*  font-family: Josefin  */
+@font-face {
+  font-family: Josefin;
+  src: url('../../fonts/Josefin_Sans/JosefinSans-Regular.ttf');
+}
+
+/*  font-family: Lexend  */
+@font-face {
+  font-family: Lexend;
+  src: url('../../fonts/Lexend_Deca/LexendDeca-Regular.ttf');
+}
+
+/*  font-family: Livvic  */
+@font-face {
+  font-family: Livvic;
+  src: url('../../fonts/Livvic/Livvic-Regular.ttf');
+}
+
 body {
-  font-family: "Manrope", sans-serif;
+  font-family: Lexend;
   color: #444444;
 }
 
@@ -14,7 +44,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: Lexend;
 }
 
 /*--------------------------------------------------------------
@@ -236,6 +266,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu .drop-down ul a {
   padding: 10px 20px;
   font-size: 14px;
+  font-family: Abel;
   text-transform: none;
   color: #2c4964;
 }
@@ -1546,6 +1577,7 @@ section {
 #footer {
   color: #fff;
   font-size: 14px;
+  font-family: Abel;
   background: linear-gradient(to right, rgba(83, 58, 243, 0.7) 0%, rgba(240,128,128,0.8) 100%), url("../img/hero-bg.jpg") center center no-repeat;
   background-size: cover;
 }
