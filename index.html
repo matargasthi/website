@@ -8,6 +8,8 @@
   <meta property="og:image" content="images/[Original size] Black Event Coordinators Logo.png">
   
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="swiper.min.css">
+  <link rel="stylesheet" type="text/css" href="styleskills.css">
 
 <meta name="title" content="Matargasthi - Jahan Masti, Wahan Matargasthi">
 <meta name="description" content="Matargasthi is a platform which provides surreal visual and audio experience in a virtual multiplex, experience virtual togetherness.">
@@ -59,7 +61,7 @@
               <li><a href="#about2">About</a></li>
               <li><a href="#services">Features</a></li>
               <li><a href="#portfolio">App Overview</a></li>
-
+              <li><a href="#team">Team</a></li>
               <li><a href="#contact">Contact</a></li>
 
             </ul>
@@ -405,7 +407,116 @@
       </div>
     </section><!-- End Portfolio Section -->
 
+    <!--==========================
+      Team Section
+    ============================-->
+<section id="team">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h3 class="section-title">Team Matargasthi</h3>
+        <p class="section-description" style="font-family: consolas;text-align: center;"><i class="fa fa-angle-left  navButton cursorChange noSelect" id="previous"></i>  Swipe  <i class="fa fa-angle-right navButton cursorChange noSelect" id="next"></i>
+			</p>
+      
+        </div>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
 
+              <div class="swiper-slide">
+                  <div class="imgBx">
+                      <img src="images/aryan.jpeg" width="250" height="300">
+                  </div>
+                  <div class="details">
+                      <h3 style="color: #11151C;font-weight: 700;">Aryan Patel<br><a >Full&#45;Stack Developer</a></h3>
+                  </div>
+
+              </div>
+              
+                          
+              <div class="swiper-slide">
+                <div class="imgBx">
+                    <img src="images/Prasenjit.jpeg" width="250" height="300">
+                </div>
+                <div class="details">
+                  <h3 style="color: #11151C;text-align: center;font-weight: 700;">Prasenjit Ghose<br><a>Full&#45;Stack Developer</a></h3>
+                </div>
+            </div>
+
+              <div class="swiper-slide">
+                  <div class="imgBx">
+                      <img src="images/rockstar.jpg">
+                  </div>
+                  <div class="details">
+                    <h3 style="color: #11151C;font-weight: 700;">Sauryaman Nayak<br><a >Full&#45;Stack Developer</a></h3>
+                  </div>
+              </div>
+              
+              <div class="swiper-slide">
+                  <div class="imgBx">
+                      <img src="images/Tushar.jpeg">
+                  </div>
+                  <div class="details">
+                    <h3 style="color: #11151C;font-weight: 700;">Tushar Das<br><a>Management</a></h3>
+                  </div>
+              </div>
+
+              <div class="swiper-slide">
+                  <div class="imgBx">
+                      <img src="images/Raj%20Das.jpeg" width="250" height="300">
+                  </div>
+                  <div class="details">
+                    <h3 style="color: #11151C;font-weight: 700;">Raj Das<br><a >Full&#45;Stack Developer</a></h3>
+                  </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="imgBx">
+                    <img src="images/suparna.jpeg" width="250" height="300">
+                </div>
+                <div class="details">
+                  <h3 style="color: #11151C;text-align: center;font-weight: 700;">Suparna Biswal<br><a >Content Writer</a></h3>
+                </div>
+            </div>
+
+            
+                          <div class="swiper-slide">
+                  <div class="imgBx">
+                      <img src="images/Punya.jpeg" width="250" height="300">
+                  </div>
+                  <div class="details">
+                      <h3 style="color: #11151C;font-weight: 700;">Punya Slok Swain<br><a >Graphic Designing</a></h3>
+                  </div>
+
+              </div>
+              
+                            <div class="swiper-slide">
+                  <div class="imgBx">
+                      <img src="images/subham.jpeg" width="250" height="300">
+                  </div>
+                  <div class="details">
+                      <h3 style="color: #11151C;font-weight: 700;">Subham Behera<br><a >Management</a></h3>
+                  </div>
+
+              </div>
+              
+                            <div class="swiper-slide">
+                  <div class="imgBx">
+                      <img src="img/atul.jpeg" width="230" height="330">
+                  </div>
+                  <div class="details">
+                      <h3 style="color: #11151C;font-weight: 700;">Jigisha<br><a >Content Writing</a></h3>
+                  </div>
+
+              </div>
+              
+               </div>
+         
+      </div>
+      <hr>
+
+
+      </div>
+    </section><!-- #team -->
+      
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact section-bg">
       <div class="container" data-aos="fade-up">
@@ -653,6 +764,25 @@ setTimeout(function(){ Swal.fire({
 })
   },5000);*/
 </script>
+  <script type="text/javascript" src="swiper.min.js"></script>
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                effect: 'coverflow',
+                grabCursor: true,
+                centeredSlides: true,
+                slidesPerView: 'auto',
+                coverflowEffect: {
+                    rotate: 50,
+                    stretch: 0,
+                    depth: 100,
+                    modifier: 1,
+                    slideShadows : true,
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                },
+            });
+        </script>
 </body>
 
 </html>

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+body {
+    background: #202626;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width:100%;
+}
+ul{
+    margin: 0 auto;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+ul li:hover{
+	background: hsl(73, 80%, 60%);
+	border-radius:20px;
+}
+ul li a{
+    color: rgb(9, 133, 133);
+    text-decoration: none;
+	font-family: cursive;
+	font-size: 18px;
+	font-weight: 700;
+}
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+   
+}
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    background: #fff;
+}
+.swiper-slide .imgBx{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+.swiper-slide .imgBx img{
+    width: 100%;
+}
+.swiper-slide .details{
+    box-sizing: border-box;
+    padding: 20px;
+}
+.swiper-slide .details h3{
+    margin: o;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+    line-height: 18px;
+}
+.swiper-slide .details h3 a{
+    font-size: 16px;
+    color: #f44336;
+}
+
