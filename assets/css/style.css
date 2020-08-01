@@ -1317,7 +1317,7 @@ section {
     top: 0;
     left: 0;
     background-image: linear-gradient(to right, rgba(83, 58, 243, 0.7) 0%, rgba(240,128,128,0.8) 100%);
-    -webkit-background-clip:text;
+    /*-webkit-background-clip:text;*/
     -webkit-text-fill-color:transparent;
 }
 
