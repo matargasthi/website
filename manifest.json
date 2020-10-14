@@ -1,0 +1,60 @@
+{
+  "name": "Matargasthi",
+  "short_name": "Matargasthi",
+  "lang": "en-GB",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "theme_color": "#cfb2e0",
+  "related_applications": [
+    {
+      "platform": " Google Play Store",
+      "id": "com.panthotech.matargasthi",
+      "url": "https://play.google.com/store/apps/details?id=com.panthotech.matargasthi"
+    }
+  ],
+  "prefer_related_applications": true,
+
+  "icons": [
+    {
+      "src": "imagesf/apple-icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "imagesf/favicon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "imagesf/icon128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "imagesf/apple-icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "imagesf/apple-icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "imagesf/android-icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "imagesf/icon384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "imagesf/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "splash_pages": null
+}
